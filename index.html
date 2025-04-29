@@ -15,43 +15,44 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <header class="header">
-        <div>
-            <div class="menu">
+        <header class="header">
+            <div class="header-menu">
                 <a>HOME</a>
                 <a>ABOUT</a>
                 <a>PRODUCT</a>
                 <a>SERVICE</a>
                 <a>CONTACT</a>
-                <button class="button">LOG IN</button>
-              
             </div>
-        </div>
-        <button class="button-menu">☰</button>
-    </header>
+            <div class="header-button">
+                <button>LOG IN</button>
+            </div>
+        </header>
 
-    <main>
-        <div class="main">
-            <div>
+        <button class="button">☰</button>
+        
+        <main class="main">
+            <section class="section-one">
                 <figure class="logo-image">
                     <img src="./img/Logo.png" alt="we-care-logo">
                 </figure>
-            </div>
-            <section class="text">
+            </section>
+            <section class="section-two">
                 <h1>WE CARE</h1>
                 <h2>About Your Pet</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat possimus ipsam totam
-                    accusantium, consequuntur officiis reiciendis nostrum pariatur beatae velit vitae, animi enim
-                    laudantium ad, sapiente officia nihil minima.</p>
+                <p>Lorem ipsum dolor sit amet consecteturad
+                    cing elit aenean a justo quis mauris hendri
+                    pellentesque eget at ipsumuis cursusturpi.</p>
                 <button>EXPLORE</button>
             </section>
-        </div>
-    </main>
+        </main>
+
+    </div>
 </body>
 <script>
-    let botao = document.querySelector(".button-menu")
-    let menu = document.querySelector(".menu")
+    let botao = document.querySelector(".button")
+    let menu = document.querySelector(".header")
 
     botao.addEventListener('click', () => {
         menu.classList.toggle('ativo')
