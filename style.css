@@ -91,6 +91,7 @@
         transition: max-height 0.3s ease-in-out;
     }
     .header.ativo{
+        margin-left: 30px;
         max-height: 210px;
     }
     .header-menu{
@@ -100,7 +101,7 @@
     .button{
         display: inline;
         position: absolute;
-        right: 20px;
+        right: 30px;
         top: 20px;
         padding: 10px;
         font-size: 25px;
@@ -112,23 +113,26 @@
 
    .logo-image img{
         display: flex;
-        max-width: 90%;
+        max-width:70%;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
    }
-   
+   .section-one{
+    max-width: 80%;
+    margin: 0 auto;
+   }
     .section-two{
         position: static;
         margin: 0 auto;
         text-align: center;
-        max-width: 90%;
+        max-width: 80%;
+        
     }
     .section-two h1{
         font-weight: 900;
         font-size: 50px;
         line-height: 100%;
-        width: auto;
     }
     .section-two h2{
         font-weight: 500;
@@ -141,10 +145,12 @@
     .section-two p{
         text-align: justify;
         width: auto;
+        margin-bottom: 20px;
     }
     .main{
         display: inline;
         margin: 0 auto;
+        max-width: 90%;
     }
     
     
